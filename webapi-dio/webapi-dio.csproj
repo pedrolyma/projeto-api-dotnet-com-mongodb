@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>webapi_dio</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.12.3" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.12.3" />
+  </ItemGroup>
+
+
+</Project>
